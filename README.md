@@ -3,6 +3,8 @@ Very amazing logger which creates a logger which can be used to log loggable thi
 
 
 ## Usage
+**Before using the logger, you should create a `logs` file in the root of your project.**  
+  
 To start using the file, instantiate it like so:
 ```JAVA 
 Logger logger = new Logger("Name", Level.ALL, Level.SEVERE);
